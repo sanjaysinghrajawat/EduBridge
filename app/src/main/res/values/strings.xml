@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">EduBridge</string>
+    <string name="getStarted">Get Started!</string>
+    <string name="enter_your_phone_number">Enter your Phone number to Proceed</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="use_phone_number">Use Phone Number</string>
+    <string name="use_email_address">Use Email Address</string>
+    <string name="continue_google">Continue with Google</string>
+    <string name="proceed">Continue</string>
+    <string name="login_logo">login_logo</string>
+    <string name="enter_mail">Enter Email Address</string>
+
+    <!--    Nav items-->
+    <string name="nav_Home">Home</string>
+    <string name="nav_Explore">Explore</string>
+    <string name="nav_Profile">Profile</string>
+    <string name="nav_Activity">Activity</string>
+    <string name="nav_Feed">Feed</string>
+    <string name="title_activity_navigation_sidebar">navigation_sidebar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- not in use -->
+    <string name="start_fund_raising">START FUND RAISING</string>
+    <string name="notification">Notifications</string>
+    <string name="accSetting">Account Setting</string>
+
+    <!--    otp verification-->
+    <string name="otp_verification">OTP Verification</string>
+    <string name="enter_otp">Please Enter the OTP send to you</string>
+
+    <string name="home_slogan">"Always give without remembering and always receive without forgetting."</string>
+    <string name="students_impacted">students impacted</string>
+    <string name="_10k">10k</string>
+    <string name="contribution">contribution</string>
+    <string name="_10_cr">10 Cr</string>
+    <string name="changemaker">changemaker</string>
+    <string name="proud">Proud</string>
+    <string name="monthly_donors">monthly donors</string>
+    <string name="_100k">100K</string>
+    <string name="edubride_has_been_upto">EDUBRIDE HAS BEEN UPTO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

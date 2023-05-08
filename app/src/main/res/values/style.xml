@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    Google Button-->
+    <style name="google_btn">
+        <item name="android:paddingLeft">60dp</item>
+        <item name="android:paddingRight">60dp</item>
+        <item name="backgroundTint">#05FFFFFF</item>
+        <item name="android:textColor">#6E6E6E</item>
+    </style>
+
+
+    <style name="proceed_btn">
+        <item name="android:textColor">#FFFF</item>
+        <item name="android:fontFamily">@font/carter_one</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:backgroundTint">#01BFBD</item>
+    </style>
+
+
+    <style name="logo_name">
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily">@font/carter_one</item>
+        <item name="android:textColor">#01BFBD</item>
+    </style>
+</resources>

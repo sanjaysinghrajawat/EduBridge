@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartFundRaiser">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="160dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/login_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/education" />
+
+    <TextView
+        android:id="@+id/textView12345"
+        style="@style/logo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/carter_one"
+        android:text="@string/app_name"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/indexValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="15"
+        android:hint="Index Value"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textView12345" />
+
+    <EditText
+        android:id="@+id/sname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="15"
+        android:hint="Student Name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/indexValue"
+        app:layout_constraintStart_toStartOf="@+id/indexValue"
+        app:layout_constraintTop_toBottomOf="@+id/indexValue" />
+
+    <EditText
+        android:id="@+id/sdescription"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginTop="8dp"
+        android:ems="15"
+        android:hint="Student Description"
+        android:inputType="text|textMultiLine"
+        app:layout_constraintEnd_toEndOf="@+id/sname"
+        app:layout_constraintStart_toStartOf="@+id/sname"
+        app:layout_constraintTop_toBottomOf="@+id/sname" />
+
+    <EditText
+        android:id="@+id/raisedMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="15"
+        android:hint="Raised Amount"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/sdescription"
+        app:layout_constraintStart_toStartOf="@+id/sdescription"
+        app:layout_constraintTop_toBottomOf="@+id/sdescription" />
+
+    <EditText
+        android:id="@+id/totalMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="15"
+        android:hint="Total Amount"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/raisedMoney"
+        app:layout_constraintStart_toStartOf="@+id/raisedMoney"
+        app:layout_constraintTop_toBottomOf="@+id/raisedMoney" />
+
+    <Button
+        android:id="@+id/addDatabase"
+        style="@style/proceed_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Submit"
+        app:layout_constraintEnd_toEndOf="@+id/totalMoney"
+        app:layout_constraintStart_toStartOf="@+id/totalMoney"
+        app:layout_constraintTop_toBottomOf="@+id/totalMoney" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

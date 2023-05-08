@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_Home"
+        android:title="@string/nav_Home"
+        android:icon="@drawable/nav_home_24"/>
+
+    <item
+        android:id="@+id/nav_Explore"
+        android:title="@string/nav_Explore"
+        android:icon="@drawable/nav_more_24"/>
+
+    <item
+        android:id="@+id/nav_Profile"
+        android:title="@string/nav_Profile"
+        android:icon="@drawable/nav_account_circle_24"/>
+
+    <item
+        android:id="@+id/nav_Activity"
+        android:title="@string/nav_Activity"
+        android:icon="@drawable/nav_activity_24"/>
+
+<!--    <item-->
+<!--        android:id="@+id/nav_Feed"-->
+<!--        android:title="@string/nav_Feed"-->
+<!--        android:icon="@drawable/nav_feed_24"/>-->
+</menu>
